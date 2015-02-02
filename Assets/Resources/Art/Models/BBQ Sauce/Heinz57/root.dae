@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EskoArtwork Collada Exporter from Studio Toolkit 14.0.0 Build 500951</authoring_tool>
+      <copyright>Copyright (c) 2014 Esko Software bvba</copyright>
+    </contributor>
+    <created>2014-10-30T03:12:49Z</created>
+    <modified>2014-10-30T03:12:49Z</modified>
+    <unit meter="0.001" name="mm"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_visual_scenes>
+    <visual_scene id="TheScene" name="TheScene">
+      <node id="xform_rigid0" name="xform_rigid0" type="NODE">
+        <instance_node url="./Resources/Object0.dae#SceneRoot"/>
+      </node>
+      <node id="xform_rigid1" name="xform_rigid1" type="NODE">
+        <matrix>1 0 0 0 0 1 0 23.421957 0 0 1 -15.875001 0 0 0 1</matrix>
+        <instance_node url="./Resources/Heinz57/Heinz57.dae"/>
+      </node>
+      <node id="xform_rigid2" name="xform_rigid2" type="NODE">
+        <matrix>1 0 0 0 0 1 0 23.421957 0 0 1 -15.875001 0 0 0 1</matrix>
+        <instance_node url="./Resources/Object2.dae#SceneRoot"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TheScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EskoArtwork Collada Exporter from Studio Toolkit 14.0.0 Build 500951</authoring_tool>
+      <copyright>Copyright (c) 2014 Esko Software bvba</copyright>
+    </contributor>
+    <created>2014-11-11T22:15:02Z</created>
+    <modified>2014-11-11T22:15:02Z</modified>
+    <unit meter="0.001" name="mm"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="Label_mat">
+      <instance_effect url="#Label_mat-effect"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Label_mat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 0</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 0</color>
+            </ambient>
+            <diffuse>
+              <color>1 1 1 1</color>
+            </diffuse>
+            <specular>
+              <color>0.30000001 0.30000001 0.30000001 1</color>
+            </specular>
+            <shininess>
+              <float>0.69999999</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>0.05000001</float>
+            </transparency>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="EAVIS">
+          <absorbency>
+            <float>0.2</float>
+          </absorbency>
+          <metallic>
+            <float>0</float>
+          </metallic>
+        </technique>
+        <technique profile="MAX3D">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geom" name="geom">
+      <mesh>
+        <source id="geom-positions" name="geom-positions">
+          <float_array id="geom-positions-array" count="216">90.627449 100 0.19999562 90.627449 0 0.2 122.63797 100 0.19999562 122.63797 0 0.2 122.63797 100 0.19999562 90.627449 0 0.2 90.627449 0 0.2 90.627449 100 0.19999562 89.147438 0 0.04368702 89.147438 100 0.04368265 89.147438 0 0.04368702 90.627449 100 0.19999562 89.147438 0 0.04368702 89.147438 100 0.04368265 87.677551 0 -0.24351493 87.677551 100 -0.24351931 87.677551 0 -0.24351493 89.147438 100 0.04368265 87.677551 0 -0.24351493 87.677551 100 -0.24351931 86.221085 0 -0.66071963 86.221085 100 -0.66072398 86.221085 0 -0.66071963 87.677551 100 -0.24351931 86.221085 0 -0.66071963 86.221085 100 -0.66072398 84.782906 0 -1.2064124 84.782906 100 -1.2064168 84.782906 0 -1.2064124 86.221085 100 -0.66072398 84.782906 0 -1.2064124 84.782906 100 -1.2064168 83.36776 0 -1.878648 83.36776 100 -1.8786523 83.36776 0 -1.878648 84.782906 100 -1.2064168 122.63797 100 0.19999562 122.63797 0 0.2 124.74413 100 0.19999562 124.74413 0 0.2 124.74413 100 0.19999562 122.63797 0 0.2 124.74413 100 0.19999562 124.74413 0 0.2 125.62859 100 0.12858252 125.62859 0 0.1285869 125.62859 100 0.12858252 124.74413 0 0.2 125.62859 100 0.12858252 125.62859 0 0.1285869 127.12177 100 -0.16389783 127.12177 0 -0.16389345 127.12177 100 -0.16389783 125.62859 0 0.1285869 127.12177 100 -0.16389783 127.12177 0 -0.16389345 128.59627 100 -0.6256429 128.59627 0 -0.62563854 128.59627 100 -0.6256429 127.12177 0 -0.16389345 128.59627 100 -0.6256429 128.59627 0 -0.62563854 130.03471 100 -1.2498059 130.03471 0 -1.2498015 130.03471 100 -1.2498059 128.59627 0 -0.62563854 83.36776 0 -1.878648 83.36776 100 -1.8786523 82.538414 0 -2.3546865 82.538414 100 -2.3546908 82.538414 0 -2.3546865 83.36776 100 -1.8786523</float_array>
+          <technique_common>
+            <accessor source="#geom-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-normals" name="geom-normals">
+          <float_array id="geom-normals-array" count="216">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.10503219 0 0.99446875 -0.10503219 0 0.99446875 -0.14854071 0 0.98890626 -0.14854071 0 0.98890626 -0.14854071 0 0.98890626 -0.10503219 0 0.99446875 -0.14854071 0 0.98890626 -0.14854071 0 0.98890626 -0.23378591 0 0.97228813 -0.23378591 0 0.97228813 -0.23378591 0 0.97228813 -0.14854071 0 0.98890626 -0.23378591 0 0.97228813 -0.23378591 0 0.97228813 -0.31534189 0 0.94897813 -0.31534189 0 0.94897813 -0.31534189 0 0.94897813 -0.23378591 0 0.97228813 -0.31534189 0 0.94897813 -0.31534189 0 0.94897813 -0.39223689 0 0.91986424 -0.39223689 0 0.91986424 -0.39223689 0 0.91986424 -0.31534189 0 0.94897813 -0.39223689 0 0.91986424 -0.39223689 0 0.91986424 -0.46379435 0 0.88594294 -0.46379435 0 0.88594294 -0.46379435 0 0.88594294 -0.39223689 0 0.91986424 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0.0804786 0 0.99675637 0.0804786 0 0.99675637 0.1365698 0 0.99063051 0.1365698 0 0.99063051 0.1365698 0 0.99063051 0.0804786 0 0.99675637 0.1365698 0 0.99063051 0.1365698 0 0.99063051 0.24590571 0 0.96929383 0.24590571 0 0.96929383 0.24590571 0 0.96929383 0.1365698 0 0.99063051 0.24590571 0 0.96929383 0.24590571 0 0.96929383 0.34893829 0 0.93714565 0.34893829 0 0.93714565 0.34893829 0 0.93714565 0.24590571 0 0.96929383 0.34893829 0 0.93714565 0.34893829 0 0.93714565 0.44379243 0 0.89612955 0.44379243 0 0.89612955 0.44379243 0 0.89612955 0.34893829 0 0.93714565 -0.46379435 0 0.88594294 -0.46379435 0 0.88594294 -0.49781308 0 0.86728436 -0.49781308 0 0.86728436 -0.49781308 0 0.86728436 -0.46379435 0 0.88594294</float_array>
+          <technique_common>
+            <accessor source="#geom-normals-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-tcs" name="geom-tcs">
+          <float_array id="geom-tcs-array" count="104">0.17637111 1 0 0 0.17637111 0 0 0 0.84283459 1 0 0 0.84283459 0 0 0 0.14577782 0 0 0 0.14577782 1 0 0 0.11494762 0 0 0 0.11494762 1 0 0 0.08374755 0 0 0 0.08374755 1 0 0 0.05205372 0 0 0 0.05205372 1 0 0 0.01975418 0 0 0 0.01975418 1 0 0 0.88653153 1 0 0 0.88653153 0 0 0 0.90460908 1 0 0 0.90460908 0 0 0 0.93583363 1 0 0 0.93583363 0 0 0 0.96756345 1 0 0 0.96756345 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#geom-tcs-array" count="26" stride="4">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+              <param name="Q" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-vertices">
+          <input semantic="POSITION" source="#geom-positions"/>
+        </vertices>
+        <triangles material="Label_mat" count="24">
+          <input semantic="VERTEX" source="#geom-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-tcs" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 2 5 5 1 6 6 1 7 7 0 8 8 4 9 9 5 10 10 4 11 11 0 12 12 4 13 13 5 14 14 6 15 15 7 16 16 6 17 17 5 18 18 6 19 19 7 20 20 8 21 21 9 22 22 8 23 23 7 24 24 8 25 25 9 26 26 10 27 27 11 28 28 10 29 29 9 30 30 10 31 31 11 32 32 12 33 33 13 34 34 12 35 35 11 36 36 2 37 37 3 38 38 14 39 39 15 40 40 14 41 41 3 42 42 14 43 43 15 44 44 16 45 45 17 46 46 16 47 47 15 48 48 16 49 49 17 50 50 18 51 51 19 52 52 18 53 53 17 54 54 18 55 55 19 56 56 20 57 57 21 58 58 20 59 59 19 60 60 20 61 61 21 62 62 22 63 63 23 64 64 22 65 65 21 66 66 12 67 67 13 68 68 24 69 69 25 70 70 24 71 71 13</p>
+          <extra>
+            <technique profile="EAVIS">
+              <double_sided>1</double_sided>
+            </technique>
+          </extra>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TheScene" name="TheScene">
+      <node id="SceneRoot" name="SceneRoot" type="NODE">
+        <node id="xform_rigid0" name="xform_rigid0" type="NODE">
+          <instance_geometry url="#geom">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Label_mat" target="#Label_mat">
+                  <bind_vertex_input semantic="texcoord" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="EAVIS">
+          <printable_area id="Label" material_based="1">
+            <id>Label</id>
+            <user_visible_name>Label</user_visible_name>
+            <material_based>1</material_based>
+            <frontmaterial>Label_mat</frontmaterial>
+            <backmaterial>Label_mat</backmaterial>
+            <flatrep>rect</flatrep>
+            <hsizemm>48.014621905092298</hsizemm>
+            <vsizemm>100.00000011050889</vsizemm>
+            <thicknessmm>0.25</thicknessmm>
+            <technical_drawing>
+              <name>Label</name>
+              <file>Sheet0_2215_2014Nov11.pdf</file>
+              <horiginmm>9.9999999999999964</horiginmm>
+              <voriginmm>10</voriginmm>
+            </technical_drawing>
+          </printable_area>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TheScene"/>
+  </scene>
+</COLLADA>

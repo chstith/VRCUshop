@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EskoArtwork Collada Exporter from Studio Toolkit 14.0.0 Build 500951</authoring_tool>
+      <copyright>Copyright (c) 2014 Esko Software bvba</copyright>
+    </contributor>
+    <created>2014-11-11T22:15:02Z</created>
+    <modified>2014-11-11T22:15:02Z</modified>
+    <unit meter="0.001" name="mm"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_visual_scenes>
+    <visual_scene id="TheScene" name="TheScene">
+      <node id="xform_rigid0" name="xform_rigid0" type="NODE">
+        <matrix>1 0 0 -106.63797 0 1 0 0.00000174 0 0 1 19.975147 0 0 0 1</matrix>
+        <instance_node url="./Resources/Shampoo_Travel/Shampoo_Travel.dae"/>
+      </node>
+      <node id="xform_rigid1" name="xform_rigid1" type="NODE">
+        <matrix>1 0 0 -106.63797 0 1 0 0.00000174 0 0 1 19.975147 0 0 0 1</matrix>
+        <instance_node url="./Resources/Object1.dae#SceneRoot"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TheScene"/>
+  </scene>
+</COLLADA>
